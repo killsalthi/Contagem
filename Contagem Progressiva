@@ -1,0 +1,11 @@
+let numero = prompt ('Inserir número para realizarmos uma contagem progressiva!');
+let inicio = 0
+
+while (inicio < numero) {
+  alert (`${inicio}`);
+  inicio++;
+
+if (inicio == numero) {
+ alert (`${numero}`);
+ alert ('Parabéns, fizemos uma contagem progressiva juntos!')
+ }
