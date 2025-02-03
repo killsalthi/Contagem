@@ -1,0 +1,11 @@
+let numero = prompt ('Inserir número para realizarmos uma contagem regressiva!');
+
+while (numero > 0) {
+  alert (`${numero}`);
+  numero--;
+
+if (numero == 0) {
+ alert (`${numero}`);
+ alert ('Parabéns, fizemos uma contagem regressiva juntos!');
+ }
+}
