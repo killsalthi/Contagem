@@ -1,0 +1,14 @@
+alert ('Vamos contar até 0?')
+
+let numero = 10;
+
+while (numero > 0) {
+
+    alert (`${numero}`);
+    numero--;
+
+    if (numero == 0) {
+    alert (`${numero}`);
+    alert ('Parabéns, contamos até 0 juntos!')
+    }
+}
